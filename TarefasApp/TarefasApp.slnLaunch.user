@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "Tarefas.Domain\\Tarefas.Domain.csproj",
+        "Action": "Start",
+        "DebugTarget": "Tarefas.Domain"
+      },
+      {
+        "Path": "Tarefas.Application\\Tarefas.Application.csproj",
+        "Action": "Start",
+        "DebugTarget": "Tarefas.Application"
+      },
+      {
+        "Path": "Tarefas.Infrastructure\\Tarefas.Infrastructure.csproj",
+        "Action": "Start",
+        "DebugTarget": "Tarefas.Infrastructure"
+      },
+      {
+        "Path": "Tarefas.API\\Tarefas.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]
